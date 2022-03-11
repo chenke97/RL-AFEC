@@ -24,8 +24,8 @@ In game.py, let function reward() return vmaf, bw_waste, loss_pattern_after:
 ```python
 def reward(self, tm_idx, actions):    
         ...
-        return r
-        #return vmaf, bw_waste, loss_pattern_after #for testing
+        #return r
+        return vmaf, bw_waste, loss_pattern_after #for testing
 ```
 then run
 ```python
