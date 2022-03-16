@@ -18,7 +18,7 @@ then run
 python3 train.py
 ```
 # Testing
-To test the trained policy on a set of test traces, put the test trace file (e.g., video_RL_testing.txt) in data/, then specify the file name in config.py, i.e., test_traffic_file = 'video_RL_testing.txt'
+To test the trained policy on a set of test traces, put the test trace file (e.g., video_RL_testing.txt) in data/, then specify the file name in config.py, i.e., test_trace_file = 'video_RL_testing.txt'
 
 In game.py, let function reward() return vmaf, bw_waste, loss_pattern_after:
 ```python
