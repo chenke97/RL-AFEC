@@ -2,6 +2,7 @@
 This is a Tensorflow implementation of RL-AFEC.
 # Prerequisites
 Python 3.6.8, Tensorflow v2.2.0 (CPU version)
+
 Modules: Numpy, tqdm, absl-py
 
 # Checklist
