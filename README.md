@@ -2,6 +2,11 @@
 This is a Tensorflow implementation of RL-AFEC.
 # Prerequisites
 Python 3.6.8, Tensorflow v2.2.0 (CPU version)
+Modules: Numpy, tqdm, absl-py
+
+# Checklist
+1. Specify num_agent, the number of worker threads collecting experience each run, using FLAG in train.py. For example, if your CPU has 12 cores, you can set num_agent to 11.
+2. Return values of the reward function in game.py for training and testing are different. Please change one line of code when you switch from training to testing and vice versa. Please see below for more details.
 
 # Training
 To train an RL-AFEC agent, put the trace file (e.g., video_RL_train.txt) in data/, then specify the file name in config.py, i.e., trace_file = 'video_RL_train.txt' 
